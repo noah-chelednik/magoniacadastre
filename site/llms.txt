@@ -1,0 +1,39 @@
+# The Magonia Cadastre
+
+> A dated register of sources: where accounts of unusual experiences are kept, and the weather, sky and earth records that help place and date them, each with its access and its terms of use.
+
+This snapshot was surveyed on 26 November 2026 and holds 39,661 rows, one per source. Each row says what the source is, where it is kept, what places and years it covers, how it can be reached, and a dated reading of its terms (open, restricted or unknown). A row holds none of the source's content. Unknown is an honest answer: many sources do not state terms for their data.
+
+## Licence
+
+- The rows, their fields, the schema and the computed values: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). Use them for any purpose without asking.
+- Each source keeps its own terms. A licence reading grants nothing over a source's content; read the source's own terms page first. Terms of use: https://magoniacadastre.org/terms
+
+## Bulk downloads
+
+- https://magoniacadastre.org/downloads/v1/registry.part-001.csv
+- https://magoniacadastre.org/downloads/v1/registry.part-001.json
+- https://magoniacadastre.org/downloads/v1/registry.part-002.csv
+- https://magoniacadastre.org/downloads/v1/registry.part-002.json
+- https://magoniacadastre.org/downloads/v1/registry.part-003.json
+- https://magoniacadastre.org/downloads/v1/registry-parts.json: the list of the registry files, with the rows, size and SHA-256 of each, and the SHA-256 of each whole file
+- https://magoniacadastre.org/downloads/v1/manifest.json: the snapshot date, the counts and the checksums
+- https://magoniacadastre.org/downloads/SHA256SUMS.txt: every download's SHA-256
+- https://magoniacadastre.org/downloads/cases/washington_1952.zip: Washington, D.C., July and August 1952
+- https://magoniacadastre.org/downloads/cases/rendlesham_1980.zip: Rendlesham Forest, Suffolk, December 1980
+- https://magoniacadastre.org/downloads/cases/phoenix_1997.zip: Phoenix, Arizona, 13 March 1997
+
+## How to cite
+
+The Magonia Cadastre, snapshot of 26 November 2026 (39,661 rows). https://magoniacadastre.org/. Rows released under CC0 1.0.
+
+Cite the snapshot by its date: rows change between snapshots.
+
+## Pages
+
+- https://magoniacadastre.org/: the home page, with a schema.org Dataset description
+- https://magoniacadastre.org/registry: search and browse every row
+- https://magoniacadastre.org/read-a-row: what each field means
+- https://magoniacadastre.org/method: method and scope, and the measured error rate
+- https://magoniacadastre.org/downloads: every file, with sizes, checksums and citations
+- https://magoniacadastre.org/corrections: how to report something wrong

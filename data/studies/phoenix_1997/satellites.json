@@ -1,0 +1,150 @@
+{
+ "what": "for each instant checked: the Sun's altitude and the Earth's shadow from the planetary ephemerides, and how many catalogued objects were in orbit and could have been sunlit above 10 degrees elevation with the sky dark; orbits are the catalogue's latest values, not those of the date",
+ "source_row_ids": [
+  "a37e83ccef7a4c02",
+  "fd010ee6a4b4f2bd"
+ ],
+ "columns": [
+  "window",
+  "time_utc",
+  "sun_altitude_deg",
+  "earth_shadow_height_zenith_km",
+  "min_sunlit_height_km",
+  "sky_dark",
+  "all_in_orbit",
+  "all_could_be_sunlit",
+  "payload_could_be_sunlit",
+  "rocket_body_could_be_sunlit",
+  "debris_could_be_sunlit"
+ ],
+ "rows": [
+  [
+   1,
+   "1997-03-14T02:30:00Z",
+   -12.327,
+   150.3,
+   78.4,
+   1,
+   16235,
+   15916,
+   2268,
+   1435,
+   12213
+  ],
+  [
+   1,
+   "1997-03-14T02:45:00Z",
+   -15.436,
+   238.4,
+   114.4,
+   1,
+   16235,
+   15913,
+   2267,
+   1434,
+   12212
+  ],
+  [
+   1,
+   "1997-03-14T03:00:00Z",
+   -18.529,
+   348.3,
+   155.7,
+   1,
+   16235,
+   15724,
+   2187,
+   1378,
+   12159
+  ],
+  [
+   1,
+   "1997-03-14T03:15:00Z",
+   -21.602,
+   481.3,
+   202.3,
+   1,
+   16235,
+   15074,
+   2166,
+   1348,
+   11560
+  ],
+  [
+   1,
+   "1997-03-14T03:30:00Z",
+   -24.649,
+   638.7,
+   254.1,
+   1,
+   16235,
+   13858,
+   2153,
+   1323,
+   10382
+  ],
+  [
+   1,
+   "1997-03-14T03:45:00Z",
+   -27.664,
+   822.3,
+   310.9,
+   1,
+   16235,
+   12821,
+   2150,
+   1294,
+   9377
+  ],
+  [
+   2,
+   "1997-03-14T04:30:00Z",
+   -36.433,
+   1547.6,
+   509.8,
+   1,
+   16235,
+   10605,
+   2102,
+   1199,
+   7304
+  ],
+  [
+   2,
+   "1997-03-14T04:45:00Z",
+   -39.23,
+   1853.7,
+   584.6,
+   1,
+   16235,
+   10225,
+   2079,
+   1183,
+   6963
+  ],
+  [
+   2,
+   "1997-03-14T05:00:00Z",
+   -41.942,
+   2194.3,
+   662.7,
+   1,
+   16235,
+   9758,
+   2047,
+   1118,
+   6593
+  ]
+ ],
+ "decays_per_day": {
+  "1997-03-10": 2,
+  "1997-03-12": 1,
+  "1997-03-13": 2,
+  "1997-03-14": 1,
+  "1997-03-16": 1,
+  "1997-03-17": 2
+ },
+ "decays_source_row_ids": [
+  "fd010ee6a4b4f2bd"
+ ]
+}

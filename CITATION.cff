@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: If you use these data, please cite this release by its date.
+title: The Magonia Cadastre
+type: dataset
+abstract: >-
+  A dated register of sources: where accounts of unusual experiences are kept, and the weather, sky and earth records
+  that help place and date them, each with its access and its terms of use. This release lists 39,661 sources.
+authors:
+  - given-names: Noah
+    family-names: Chelednik
+version: release-2026-11-26
+date-released: 2026-11-26
+license: CC0-1.0
+url: https://magoniacadastre.org/

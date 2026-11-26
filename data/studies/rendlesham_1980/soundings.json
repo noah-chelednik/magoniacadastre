@@ -1,0 +1,5 @@
+{
+ "what": "temperature inversions found in each radiosonde sounding (strength in kelvin, base above the ground and depth in metres); the soundings themselves are not copied",
+ "source_row_ids": [],
+ "soundings": []
+}

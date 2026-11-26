@@ -1,0 +1,28 @@
+{
+ "contract_version": 2,
+ "registry_version": "v1",
+ "snapshot_date": "2026-11-26",
+ "row_count": 39661,
+ "tiers": {
+  "A": 33970,
+  "B": 322,
+  "C": 5369
+ },
+ "licence_verdicts": {
+  "open": 6424,
+  "restricted": 1692,
+  "unknown": 31545
+ },
+ "access_status": {
+  "open": 28316,
+  "registration": 3172,
+  "restricted": 1191,
+  "ungettable": 64,
+  "unknown": 6918
+ },
+ "files": {
+  "registry.json": "a774fd167c73ed402b2abb4fb29747035d49a8a041f9ab70f8bdf5715504125f",
+  "registry.csv": "2906125a971599e385a71c26e2e9b66aa9eff9844a2192a58a754d2e8472aad3",
+  "method.md": "22e5b8f77a5c21a204f0e710769b36dd8dda0bd70c53544fd715a547657895ff"
+ }
+}

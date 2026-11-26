@@ -1,0 +1,94 @@
+{
+ "contract_version": 1,
+ "export": "unified_v1",
+ "snapshot_date": "2026-11-25",
+ "cases": {
+  "washington_1952": {
+   "records": 1458,
+   "by_group": {
+    "airfields": 27,
+    "earthquakes": 134,
+    "launches": 34,
+    "radar_reports": 26,
+    "reanalysis": 634,
+    "sky": 1,
+    "space_weather": 288,
+    "surface_weather": 314
+   },
+   "periods": 12,
+   "sky_positions": 1518,
+   "satellite_instants": 72,
+   "soundings_summarised": 53,
+   "press_items": 382
+  },
+  "rendlesham_1980": {
+   "records": 1149,
+   "by_group": {
+    "airfields": 137,
+    "earthquakes": 374,
+    "launches": 41,
+    "reanalysis": 434,
+    "sky": 1,
+    "space_weather": 162
+   },
+   "periods": 3,
+   "sky_positions": 4163,
+   "satellite_instants": 246,
+   "soundings_summarised": 0
+  },
+  "phoenix_1997": {
+   "records": 557,
+   "by_group": {
+    "airfields": 20,
+    "earthquakes": 132,
+    "launches": 3,
+    "reanalysis": 185,
+    "sky": 1,
+    "space_weather": 145,
+    "surface_weather": 71
+   },
+   "periods": 1,
+   "sky_positions": 506,
+   "satellite_instants": 9,
+   "soundings_summarised": 12
+  }
+ },
+ "files": {
+  "phoenix_1997/case.json": "e7153147558691443cc289f5c4472e7853c46b12ae4494e7152c6b6f404d224e",
+  "phoenix_1997/records/airfields.jsonl": "71c9537db034c40df9116269ca196a784065c827acac0675ebc5f7da2b89d565",
+  "phoenix_1997/records/earthquakes.jsonl": "c2dea12ced670a7649f86cdb2b8e0b5fcf544aff16b7d6d049ad852c0fd70961",
+  "phoenix_1997/records/launches.jsonl": "13c9f5347f3825af9f7e0938aa4afb8635e5dfd2f2a78baecc09a32b9eb836d0",
+  "phoenix_1997/records/reanalysis.jsonl": "8f31fbbddb9badeb9c85b6e92d8cb62d25db102d4acc410c2834d83a34be0794",
+  "phoenix_1997/records/sky.jsonl": "7c50839e2a2f4e046d45f2eb2f2012db6c618834df85e5cf21e6ebd14aadcd13",
+  "phoenix_1997/records/space_weather.jsonl": "a27664ad50c02c14981a5576570b09a10416ddfe0a68a300a0c91cfd34b8f97a",
+  "phoenix_1997/records/surface_weather.jsonl": "bba428899b486e529fc45f17f59d25eb53832a4abceb91e43f213c1a5155ba22",
+  "phoenix_1997/satellites.json": "5a4dcab34cdeea1db46795a8984e2e065bc2979996b69d47defcbc3d1852dc3c",
+  "phoenix_1997/sky_positions.json": "55852a0d849c52850cbd6ed6ebddaf38d241560186d3e0f135647d6dd5fabfcc",
+  "phoenix_1997/soundings.json": "c949a01895221fd0363ad08f84ba81c39274aff11ae4679a9ec1e4d4aef8d340",
+  "rendlesham_1980/case.json": "02ea11003afc38ad7bf8f52152cd64b3cc01ca843dfb379de53ec3a5bbc6f8be",
+  "rendlesham_1980/records/airfields.jsonl": "635d46526cca99f0f40037b083d8183b76c03899b950c18a1f34806eca122358",
+  "rendlesham_1980/records/earthquakes.jsonl": "d882df39174485ad17bd811b46512821eaea92148e36dc79b7826b70d126c39b",
+  "rendlesham_1980/records/launches.jsonl": "29c002623c3c8a54fb8f6e7004bcaf8939518d5b8d913b9970955afa8d58bc04",
+  "rendlesham_1980/records/reanalysis.jsonl": "93258990873d838c1f3fb7f92bee387a5303babe534596510b6673cb949b3882",
+  "rendlesham_1980/records/sky.jsonl": "c044b61908e593b0999b4a4532d0a20de396b664beb770fe97f628c05bc2839c",
+  "rendlesham_1980/records/space_weather.jsonl": "56fe2ae469d372afe6e1e1ac79c52825d9cb571b745d688f27ea090a4660a931",
+  "rendlesham_1980/satellites.json": "2d2bc0af6adc0be86c4896c255f2776b74619029780660f95261b8c1e9f2d5a1",
+  "rendlesham_1980/sky_positions.json": "012ac880a3c4097fbc59d3cfed0ca5a4c3ebfd779ef1df5efb3eb7463c22d34a",
+  "rendlesham_1980/soundings.json": "543dc2b26b643fba094df2988ed21bc9fcd01e99fe0be001915d428d46dc5aa2",
+  "schema.md": "089ac4a42bb6475e5a4966dc772a052c0adb37166b191121aad8e95730fab11f",
+  "sources.json": "fc4aa417e2a79860eb2541184f1dac1ecfa53f1a09941477cf5d8948c6e9b70e",
+  "washington_1952/case.json": "64a135acd5c40386e5d05633b4ab120ecec58bd93ea3054c4323a628062ca06b",
+  "washington_1952/press_1952.json": "0fbf458b38cb4100a28ef1cd0289a4ce73db8d278289151b1f4c3b4b7da5f8d5",
+  "washington_1952/records/airfields.jsonl": "15bd907c9b3c6744fc12021014808052ea6e800aa11d36e702e0188e632d63aa",
+  "washington_1952/records/earthquakes.jsonl": "6a908f245b345f9ad584b9bf7580c28898cd1272ada6e90340442d5cc6665771",
+  "washington_1952/records/launches.jsonl": "d8d6d94d5fb90ee8fc4de1cd9ee15a0fa9c384056adb53b0978d1ca8dc97b67b",
+  "washington_1952/records/radar_reports.jsonl": "114f4d700badeb5bb4d42bda2d2579caea08cbeee6dceca68e52eb2c15365e63",
+  "washington_1952/records/reanalysis.jsonl": "5bb71b7da2f7452a66f2bca2b95e4e87d6bf68a14a05f3f3d8dd35c3ab791fe8",
+  "washington_1952/records/sky.jsonl": "190bbb4556513cc0bf54140981fd52d678716470d058f9a71c1f011c76d1d20d",
+  "washington_1952/records/space_weather.jsonl": "3329927b5af786e29a28c681f9d8ca1b9ed6daf3fc94eb61191d02dd6eafa0e3",
+  "washington_1952/records/surface_weather.jsonl": "57e03b5664ae65d2148f5cf3f391d8f76e9b19f94d548c77bf587bc2b265d840",
+  "washington_1952/satellites.json": "1a09170837af6e4fc35e04c78b0411ca4b31255fc65032ec510770a4ca02ae83",
+  "washington_1952/sky_positions.json": "38d0cda5ed14833ff62b08d8633b1867d8ad2db37e156d679067c2ac0527ccd9",
+  "washington_1952/soundings.json": "048677e0fac1d13ac1cb5ef24931642e891c6c16e01d5313488df56b54750a16"
+ }
+}

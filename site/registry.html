@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="referrer" content="no-referrer">
+<title>The registry · The Magonia Cadastre</title>
+<meta name="description" content="Search and browse 39661 sources.">
+<link rel="canonical" href="https://magoniacadastre.org/registry">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Magonia Cadastre">
+<meta property="og:title" content="The registry · The Magonia Cadastre">
+<meta property="og:description" content="Search and browse 39661 sources.">
+<meta property="og:url" content="https://magoniacadastre.org/registry">
+<meta property="og:image" content="https://magoniacadastre.org/assets/card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="An engraved sailing ship riding above contoured clouds, with the words The Magonia Cadastre">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/mark.svg?v=8c0f4be90d81" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css?v=2982b20a2925">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the text</a>
+<header class="masthead">
+<div class="masthead-inner">
+<a class="brand" href="index.html"><span class="brand-name">The Magonia Cadastre</span><span class="brand-sub">a register of sources</span></a>
+<nav class="plates-nav" aria-label="Plates"><ul><li><a href="registry.html" aria-current="page">The registry</a></li><li class="nav-minor"><a href="read-a-row.html">How to read a row</a></li><li class="nav-minor"><a href="case-washington-1952.html">Washington 1952</a></li><li class="nav-minor"><a href="case-rendlesham-1980.html">Rendlesham 1980</a></li><li class="nav-minor"><a href="case-phoenix-1997.html">Phoenix 1997</a></li><li><a href="dossier.html">A place and a moment</a></li><li class="nav-minor"><a href="method.html">Method and scope</a></li><li class="nav-minor"><a href="downloads.html">Downloads</a></li><li><a href="about.html">About</a></li><li class="nav-narrow"><a href="index.html#cases">Studies</a></li></ul></nav>
+</div>
+</header>
+<main id="main" tabindex="-1">
+<p class="plate-mark"><span class="plate-no">Plate III</span><span class="plate-date">Surveyed <time datetime="2026-11-26">26 November 2026</time></span></p>
+<h1 id="reg-title" tabindex="-1">The registry</h1>
+<div id="reg-intro">
+<p class="lede">39,661 sources, each a row. Search by name, place or identifier, narrow by the filters, and open a row to read it whole. What each field means: <a href="read-a-row.html">How to read a row</a>.</p>
+</div>
+<div id="registry-app" data-src="data/">
+<section id="browse" aria-labelledby="browse-h">
+<h2 id="browse-h" class="visually-hidden">Search and browse</h2>
+<div class="controls" role="search" aria-label="Search the registry">
+<div class="control control-q"><label for="f-q">Search</label><input id="f-q" type="search" autocomplete="off" spellcheck="false" aria-describedby="f-q-help"><span id="f-q-help" class="help">Words in the name, a place, a topic code or a row identifier.</span></div>
+<div class="control control-tier"><label for="f-tier">Source group</label><select id="f-tier"><option value="">All groups</option></select></div>
+<div class="control control-order"><label for="f-order">Order by</label><select id="f-order"><option value="relevance">Cornerstones first, then best match</option><option value="title">Title</option><option value="tier">Source group, then title</option><option value="checked">Newest checked</option></select></div>
+<details class="registry-filters" id="f-more"><summary>More filters<span id="f-count" class="count"></span></summary>
+<div class="filters-grid">
+<div class="control"><label for="f-kind">Kind</label><select id="f-kind"><option value="">Any</option></select></div><div class="control"><label for="f-topic">Topic code</label><select id="f-topic"><option value="">Any</option></select></div><div class="control"><label for="f-access">Access</label><select id="f-access"><option value="">Any</option></select></div><div class="control"><label for="f-licence">Licence verdict</label><select id="f-licence"><option value="">Any</option></select></div><div class="control"><label for="f-language">Language</label><select id="f-language"><option value="">Any</option></select></div><div class="control"><label for="f-place">Place</label><select id="f-place"><option value="">Any</option></select></div>
+</div>
+</details>
+<div class="control control-reset"><button type="button" id="f-reset">Clear all</button></div>
+</div>
+<div id="f-chips" class="chips" aria-label="Filters in use" hidden></div>
+<p id="f-hint" class="hint" hidden><a href="#browse">Show only the core sources of accounts (tier B)</a>: collections of <a class="gloss" href="glossary.html#g-account">accounts</a>, <a class="gloss" href="glossary.html#g-case-file">case files</a> and investigation files.</p>
+<p id="reg-opening" class="note" hidden>The list opens on 21 cornerstone holdings: national archive record groups, official registers, long-running catalogues and the papers of the main investigators. Then come the core sources of accounts (tier B) by kind, the long tail (C) and the context datasets (A).</p>
+<p id="reg-status" class="status" role="status" aria-live="polite">The registry is loading.</p>
+<ol id="reg-results" class="deeds"></ol>
+<p class="more-wrap"><button type="button" id="reg-more" hidden>Show more rows</button></p>
+<noscript><p class="status">The search needs JavaScript, which is off in this browser. Every row is in the <a href="downloads.html">Downloads</a>: registry.csv opens in any spreadsheet.</p></noscript>
+</section>
+<section id="reg-row" aria-labelledby="reg-title" hidden>
+<p class="back"><a id="reg-back" href="#browse">Back to the list</a></p>
+<div id="reg-row-body"></div>
+</section>
+</div>
+</main>
+<footer class="colophon">
+<p>The Magonia Cadastre. Compiled by Noah Chelednik, Surveyor-General of the Magonia Cadastre. A dated register of sources, surveyed <time datetime="2026-11-26">26 November 2026</time>. The rows are released under <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noopener noreferrer">CC0 1.0</a>; each source keeps its own terms. Static pages: no cookies, no tracking, nothing loaded from elsewhere.</p>
+<p><a href="downloads.html">Downloads</a> · <a href="read-a-row.html">How to read a row</a> · <a href="method.html">Method and scope</a> · <a href="glossary.html">Glossary</a> · <a href="about.html">About</a></p>
+<p class="colophon-legal"><a href="terms.html">Terms of use</a> · <a href="privacy.html">Privacy</a> · <a href="accessibility.html">Accessibility</a> · <a href="corrections.html">Corrections and rights</a> · <a href="corrections-log.html">Corrections log</a></p>
+<p class="colophon-support">The Cadastre is free and always will be. If it is useful to you, you can <a href="https://ko-fi.com/magoniacadastre" rel="noopener noreferrer">support its upkeep</a>.</p>
+</footer>
+<script src="assets/registry.js?v=a0db8d8cbbb0"></script>
+</body>
+</html>

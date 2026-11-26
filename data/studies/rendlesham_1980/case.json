@@ -1,0 +1,484 @@
+{
+ "case": "rendlesham_1980",
+ "title": "Rendlesham Forest, Suffolk, December 1980",
+ "point": {
+  "lat": 52.09,
+  "lon": 1.44,
+  "name": "Rendlesham Forest, Suffolk",
+  "country": "GB"
+ },
+ "time_zone": "Europe/London (UTC in December)",
+ "span": {
+  "start": "1980-12-20T00:00:00Z",
+  "end": "1981-01-01T00:00:00Z"
+ },
+ "periods": [
+  {
+   "label": "night of 25/26 December",
+   "start": "1980-12-25T20:00:00Z",
+   "end": "1980-12-26T06:00:00Z"
+  },
+  {
+   "label": "night of 26/27 December",
+   "start": "1980-12-26T20:00:00Z",
+   "end": "1980-12-27T06:00:00Z"
+  },
+  {
+   "label": "night of 27/28 December",
+   "start": "1980-12-27T18:00:00Z",
+   "end": "1980-12-28T06:00:00Z"
+  }
+ ],
+ "records": {
+  "airfields": 137,
+  "earthquakes": 374,
+  "launches": 41,
+  "reanalysis": 434,
+  "sky": 1,
+  "space_weather": 162
+ },
+ "derived": {
+  "periods": [
+   {
+    "period": "night of 25/26 December",
+    "start": "1980-12-25T20:00:00Z",
+    "end": "1980-12-26T06:00:00Z",
+    "nearest_station": {
+     "status": "held_link_only",
+     "records": 258,
+     "source_row_id": "b6792829a159327d"
+    },
+    "daily_station": null,
+    "kp": [
+     0.667,
+     3.333
+    ],
+    "era5_nearest_cell": {
+     "name": "ERA5 cell nearest RAF Woodbridge",
+     "hours": 10,
+     "cloud_cover_total_pct": [
+      0.0,
+      87.2
+     ],
+     "cloud_cover_low_pct": [
+      0.0,
+      3.1
+     ],
+     "boundary_layer_height_m": [
+      753.0,
+      1069.0
+     ],
+     "hours_with_inversion": 0,
+     "strongest_inversion_k": null
+    },
+    "nearest_sounding": {
+     "status": "held_link_only",
+     "records": 8,
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": {
+     "time": "1980-12-26T01:00:00Z",
+     "above_horizon": [
+      {
+       "body": "capella",
+       "altitude_deg": 68.16,
+       "azimuth_deg": 266.66,
+       "magnitude": 0.08
+      },
+      {
+       "body": "pollux",
+       "altitude_deg": 65.7,
+       "azimuth_deg": 169.42,
+       "magnitude": 1.14
+      },
+      {
+       "body": "procyon",
+       "altitude_deg": 43.1,
+       "azimuth_deg": 175.29,
+       "magnitude": 0.34
+      },
+      {
+       "body": "betelgeuse",
+       "altitude_deg": 41.62,
+       "azimuth_deg": 210.63,
+       "magnitude": 0.5
+      },
+      {
+       "body": "aldebaran",
+       "altitude_deg": 41.2,
+       "azimuth_deg": 239.28,
+       "magnitude": 0.86
+      },
+      {
+       "body": "moon",
+       "altitude_deg": 39.38,
+       "azimuth_deg": 125.7,
+       "magnitude": -11.29
+      },
+      {
+       "body": "regulus",
+       "altitude_deg": 38.34,
+       "azimuth_deg": 125.59,
+       "magnitude": 1.35
+      },
+      {
+       "body": "rigel",
+       "altitude_deg": 23.5,
+       "azimuth_deg": 215.68,
+       "magnitude": 0.13
+      },
+      {
+       "body": "sirius",
+       "altitude_deg": 20.67,
+       "azimuth_deg": 190.28,
+       "magnitude": -1.46
+      },
+      {
+       "body": "deneb",
+       "altitude_deg": 8.68,
+       "azimuth_deg": 346.54,
+       "magnitude": 1.25
+      },
+      {
+       "body": "arcturus",
+       "altitude_deg": 7.72,
+       "azimuth_deg": 68.39,
+       "magnitude": -0.05
+      },
+      {
+       "body": "saturn",
+       "altitude_deg": 5.92,
+       "azimuth_deg": 100.2,
+       "magnitude": 0.85
+      },
+      {
+       "body": "jupiter",
+       "altitude_deg": 5.63,
+       "azimuth_deg": 101.24,
+       "magnitude": -1.98
+      },
+      {
+       "body": "vega",
+       "altitude_deg": 1.46,
+       "azimuth_deg": 9.38,
+       "magnitude": 0.03
+      }
+     ],
+     "source_row_ids": [
+      "a37e83ccef7a4c02"
+     ]
+    },
+    "seismic_events_within_24_h": {
+     "count": 191,
+     "within_500_km": 0,
+     "nearest_km": 1843
+    },
+    "satellites": {
+     "instants": 16,
+     "catalogued_in_orbit": [
+      7308,
+      7308
+     ],
+     "could_be_sunlit_above_10_deg": [
+      3364,
+      6563
+     ],
+     "source_row_ids": [
+      "fd010ee6a4b4f2bd"
+     ]
+    }
+   },
+   {
+    "period": "night of 26/27 December",
+    "start": "1980-12-26T20:00:00Z",
+    "end": "1980-12-27T06:00:00Z",
+    "nearest_station": {
+     "status": "held_link_only",
+     "records": 283,
+     "source_row_id": "b6792829a159327d"
+    },
+    "daily_station": null,
+    "kp": [
+     0.333,
+     2.667
+    ],
+    "era5_nearest_cell": {
+     "name": "ERA5 cell nearest RAF Woodbridge",
+     "hours": 10,
+     "cloud_cover_total_pct": [
+      26.7,
+      94.7
+     ],
+     "cloud_cover_low_pct": [
+      3.7,
+      38.6
+     ],
+     "boundary_layer_height_m": [
+      663.0,
+      852.0
+     ],
+     "hours_with_inversion": 0,
+     "strongest_inversion_k": null
+    },
+    "nearest_sounding": {
+     "status": "held_link_only",
+     "records": 8,
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": {
+     "time": "1980-12-27T01:00:00Z",
+     "above_horizon": [
+      {
+       "body": "capella",
+       "altitude_deg": 67.56,
+       "azimuth_deg": 267.51,
+       "magnitude": 0.08
+      },
+      {
+       "body": "pollux",
+       "altitude_deg": 65.8,
+       "azimuth_deg": 171.52,
+       "magnitude": 1.14
+      },
+      {
+       "body": "procyon",
+       "altitude_deg": 43.14,
+       "azimuth_deg": 176.63,
+       "magnitude": 0.34
+      },
+      {
+       "body": "betelgeuse",
+       "altitude_deg": 41.31,
+       "azimuth_deg": 211.87,
+       "magnitude": 0.5
+      },
+      {
+       "body": "aldebaran",
+       "altitude_deg": 40.68,
+       "azimuth_deg": 240.32,
+       "magnitude": 0.86
+      },
+      {
+       "body": "regulus",
+       "altitude_deg": 38.83,
+       "azimuth_deg": 126.65,
+       "magnitude": 1.35
+      },
+      {
+       "body": "moon",
+       "altitude_deg": 30.31,
+       "azimuth_deg": 116.56,
+       "magnitude": -10.95
+      },
+      {
+       "body": "rigel",
+       "altitude_deg": 23.14,
+       "azimuth_deg": 216.67,
+       "magnitude": 0.13
+      },
+      {
+       "body": "sirius",
+       "altitude_deg": 20.55,
+       "azimuth_deg": 191.28,
+       "magnitude": -1.46
+      },
+      {
+       "body": "deneb",
+       "altitude_deg": 8.54,
+       "azimuth_deg": 347.23,
+       "magnitude": 1.25
+      },
+      {
+       "body": "arcturus",
+       "altitude_deg": 8.28,
+       "azimuth_deg": 69.14,
+       "magnitude": -0.05
+      },
+      {
+       "body": "saturn",
+       "altitude_deg": 6.48,
+       "azimuth_deg": 100.97,
+       "magnitude": 0.85
+      },
+      {
+       "body": "jupiter",
+       "altitude_deg": 6.15,
+       "azimuth_deg": 101.99,
+       "magnitude": -1.99
+      },
+      {
+       "body": "vega",
+       "altitude_deg": 1.57,
+       "azimuth_deg": 10.14,
+       "magnitude": 0.03
+      }
+     ],
+     "source_row_ids": [
+      "a37e83ccef7a4c02"
+     ]
+    },
+    "seismic_events_within_24_h": {
+     "count": 197,
+     "within_500_km": 0,
+     "nearest_km": 1913
+    },
+    "satellites": {
+     "instants": 37,
+     "catalogued_in_orbit": [
+      7306,
+      7308
+     ],
+     "could_be_sunlit_above_10_deg": [
+      2364,
+      5638
+     ],
+     "source_row_ids": [
+      "fd010ee6a4b4f2bd"
+     ]
+    }
+   },
+   {
+    "period": "night of 27/28 December",
+    "start": "1980-12-27T18:00:00Z",
+    "end": "1980-12-28T06:00:00Z",
+    "nearest_station": {
+     "status": "held_link_only",
+     "records": 314,
+     "source_row_id": "b6792829a159327d"
+    },
+    "daily_station": null,
+    "kp": [
+     0.667,
+     1.667
+    ],
+    "era5_nearest_cell": {
+     "name": "ERA5 cell nearest RAF Woodbridge",
+     "hours": 12,
+     "cloud_cover_total_pct": [
+      8.8,
+      75.2
+     ],
+     "cloud_cover_low_pct": [
+      3.0,
+      70.5
+     ],
+     "boundary_layer_height_m": [
+      148.0,
+      505.0
+     ],
+     "hours_with_inversion": 6,
+     "strongest_inversion_k": 1.2
+    },
+    "nearest_sounding": {
+     "status": "held_link_only",
+     "records": 8,
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": {
+     "time": "1980-12-28T00:00:00Z",
+     "above_horizon": [
+      {
+       "body": "capella",
+       "altitude_deg": 76.05,
+       "azimuth_deg": 251.65,
+       "magnitude": 0.08
+      },
+      {
+       "body": "pollux",
+       "altitude_deg": 62.49,
+       "azimuth_deg": 143.86,
+       "magnitude": 1.14
+      },
+      {
+       "body": "aldebaran",
+       "altitude_deg": 47.5,
+       "azimuth_deg": 224.08,
+       "magnitude": 0.86
+      },
+      {
+       "body": "betelgeuse",
+       "altitude_deg": 44.63,
+       "azimuth_deg": 193.32,
+       "magnitude": 0.5
+      },
+      {
+       "body": "procyon",
+       "altitude_deg": 41.23,
+       "azimuth_deg": 157.88,
+       "magnitude": 0.34
+      },
+      {
+       "body": "regulus",
+       "altitude_deg": 31.32,
+       "azimuth_deg": 112.54,
+       "magnitude": 1.35
+      },
+      {
+       "body": "rigel",
+       "altitude_deg": 27.38,
+       "azimuth_deg": 202.01,
+       "magnitude": 0.13
+      },
+      {
+       "body": "sirius",
+       "altitude_deg": 21.17,
+       "azimuth_deg": 176.89,
+       "magnitude": -1.46
+      },
+      {
+       "body": "moon",
+       "altitude_deg": 12.34,
+       "azimuth_deg": 97.05,
+       "magnitude": -10.6
+      },
+      {
+       "body": "deneb",
+       "altitude_deg": 11.15,
+       "azimuth_deg": 337.55,
+       "magnitude": 1.25
+      },
+      {
+       "body": "vega",
+       "altitude_deg": 0.86,
+       "azimuth_deg": 359.21,
+       "magnitude": 0.03
+      },
+      {
+       "body": "arcturus",
+       "altitude_deg": 0.55,
+       "azimuth_deg": 58.32,
+       "magnitude": -0.05
+      }
+     ],
+     "source_row_ids": [
+      "a37e83ccef7a4c02"
+     ]
+    },
+    "seismic_events_within_24_h": {
+     "count": 220,
+     "within_500_km": 0,
+     "nearest_km": 4619
+    },
+    "satellites": {
+     "instants": 48,
+     "catalogued_in_orbit": [
+      7305,
+      7306
+     ],
+     "could_be_sunlit_above_10_deg": [
+      2367,
+      6628
+     ],
+     "source_row_ids": [
+      "fd010ee6a4b4f2bd"
+     ]
+    }
+   }
+  ],
+  "not_copied_link_only": {
+   "station_observations": 1125,
+   "soundings": 28,
+   "daily_summaries": 0
+  }
+ }
+}

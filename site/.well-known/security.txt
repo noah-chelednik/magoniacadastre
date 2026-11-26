@@ -1,0 +1,4 @@
+Contact: mailto:noahchelednik@proton.me
+Expires: 2027-11-26T00:00:00Z
+Preferred-Languages: en
+Canonical: https://magoniacadastre.org/.well-known/security.txt

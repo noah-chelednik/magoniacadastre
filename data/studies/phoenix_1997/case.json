@@ -1,0 +1,221 @@
+{
+ "case": "phoenix_1997",
+ "title": "Phoenix, Arizona, 13 March 1997",
+ "point": {
+  "lat": 33.4484,
+  "lon": -112.074,
+  "name": "Phoenix, Arizona",
+  "country": "US"
+ },
+ "time_zone": "America/Phoenix (Mountain Standard Time, UTC-7, no daylight saving)",
+ "span": {
+  "start": "1997-03-10T00:00:00Z",
+  "end": "1997-03-18T00:00:00Z"
+ },
+ "periods": [
+  {
+   "label": "evening of 13 March (19:00 to 24:00 MST)",
+   "start": "1997-03-14T02:00:00Z",
+   "end": "1997-03-14T07:00:00Z"
+  }
+ ],
+ "records": {
+  "airfields": 20,
+  "earthquakes": 132,
+  "launches": 3,
+  "reanalysis": 185,
+  "sky": 1,
+  "space_weather": 145,
+  "surface_weather": 71
+ },
+ "derived": {
+  "periods": [
+   {
+    "period": "evening of 13 March (19:00 to 24:00 MST)",
+    "start": "1997-03-14T02:00:00Z",
+    "end": "1997-03-14T07:00:00Z",
+    "nearest_station": {
+     "name": "PHOENIX AIRPORT, AZ US",
+     "station_id": "72278023183",
+     "distance_km": 6.9,
+     "observations": 8,
+     "temperature_c": [
+      18.9,
+      28.9
+     ],
+     "dewpoint_c": [
+      0.6,
+      2.2
+     ],
+     "wind_speed_m_s": [
+      0.0,
+      4.1
+     ],
+     "visibility_m": [
+      16000,
+      16000
+     ],
+     "lowest_cloud_base_m": 7500,
+     "source_row_id": "b6792829a159327d"
+    },
+    "daily_station": {
+     "station": "USW00023183",
+     "station_id": "USW00023183",
+     "distance_km": 6.9,
+     "source_row_id": "1f54eb254f8d95ef",
+     "days": [
+      {
+       "local_date": "1997-03-13",
+       "temperature_max_c": 30.6,
+       "temperature_min_c": 13.3,
+       "precipitation_mm": 0.0
+      }
+     ]
+    },
+    "kp": [
+     1.667,
+     2.0
+    ],
+    "era5_nearest_cell": {
+     "name": "ERA5 cell nearest Phoenix",
+     "hours": 5,
+     "cloud_cover_total_pct": [
+      0.0,
+      88.2
+     ],
+     "cloud_cover_low_pct": [
+      0.0,
+      0.0
+     ],
+     "boundary_layer_height_m": [
+      34.0,
+      163.0
+     ],
+     "hours_with_inversion": 4,
+     "strongest_inversion_k": 6.1
+    },
+    "nearest_sounding": {
+     "station": "TUCSON, AZ",
+     "station_id": "USM00072274",
+     "distance_km": 171,
+     "time": "1997-03-13T23:09:00Z",
+     "hours_from_period_middle": 5.3,
+     "inversions": [
+      {
+       "strength_k": 0.5,
+       "base_above_ground_m": 2630,
+       "depth_m": 101
+      }
+     ],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": {
+     "time": "1997-03-14T04:30:00Z",
+     "above_horizon": [
+      {
+       "body": "pollux",
+       "altitude_deg": 79.13,
+       "azimuth_deg": 243.03,
+       "magnitude": 1.14
+      },
+      {
+       "body": "procyon",
+       "altitude_deg": 59.49,
+       "azimuth_deg": 205.06,
+       "magnitude": 0.34
+      },
+      {
+       "body": "regulus",
+       "altitude_deg": 58.8,
+       "azimuth_deg": 127.64,
+       "magnitude": 1.35
+      },
+      {
+       "body": "capella",
+       "altitude_deg": 51.56,
+       "azimuth_deg": 303.66,
+       "magnitude": 0.08
+      },
+      {
+       "body": "betelgeuse",
+       "altitude_deg": 45.93,
+       "azimuth_deg": 242.59,
+       "magnitude": 0.5
+      },
+      {
+       "body": "aldebaran",
+       "altitude_deg": 35.21,
+       "azimuth_deg": 267.16,
+       "magnitude": 0.86
+      },
+      {
+       "body": "sirius",
+       "altitude_deg": 34.03,
+       "azimuth_deg": 210.44,
+       "magnitude": -1.46
+      },
+      {
+       "body": "mars",
+       "altitude_deg": 33.26,
+       "azimuth_deg": 109.13,
+       "magnitude": -1.31
+      },
+      {
+       "body": "rigel",
+       "altitude_deg": 27.82,
+       "azimuth_deg": 237.17,
+       "magnitude": 0.13
+      },
+      {
+       "body": "moon",
+       "altitude_deg": 27.4,
+       "azimuth_deg": 271.05,
+       "magnitude": -9.18
+      },
+      {
+       "body": "arcturus",
+       "altitude_deg": 13.16,
+       "azimuth_deg": 75.51,
+       "magnitude": -0.05
+      },
+      {
+       "body": "spica",
+       "altitude_deg": 6.84,
+       "azimuth_deg": 108.22,
+       "magnitude": 0.97
+      }
+     ],
+     "source_row_ids": [
+      "a37e83ccef7a4c02"
+     ]
+    },
+    "seismic_events_within_24_h": {
+     "count": 132,
+     "within_500_km": 1,
+     "nearest_km": 452,
+     "magnitude_floor": 2.5
+    },
+    "satellites": {
+     "instants": 9,
+     "catalogued_in_orbit": [
+      16235,
+      16235
+     ],
+     "could_be_sunlit_above_10_deg": [
+      9758,
+      15916
+     ],
+     "source_row_ids": [
+      "fd010ee6a4b4f2bd"
+     ]
+    }
+   }
+  ],
+  "not_copied_link_only": {
+   "station_observations": 28,
+   "soundings": 11,
+   "daily_summaries": 0
+  },
+  "earthquakes_counted_from_magnitude": 2.5
+ }
+}

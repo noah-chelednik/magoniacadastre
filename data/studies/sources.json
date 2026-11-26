@@ -1,0 +1,532 @@
+[
+ {
+  "source_row_id": "144448bc61cfa7b1",
+  "title": "US Naval Observatory Astronomical Applications Department, Data Services",
+  "url": "https://aa.usno.navy.mil/data/index",
+  "licence_verdict": "open",
+  "licence_label": "US public domain (17 U.S.C. 105)",
+  "licence_evidence_url": "https://www.law.cornell.edu/uscode/text/17/105",
+  "use": "included",
+  "what": "USNO Sun and Moon times for the study dates",
+  "why": "US public domain; records copied",
+  "cases": [
+   "phoenix_1997",
+   "rendlesham_1980",
+   "washington_1952"
+  ],
+  "records_included": {
+   "phoenix_1997": 1,
+   "rendlesham_1980": 1,
+   "washington_1952": 1
+  }
+ },
+ {
+  "source_row_id": "16c3d142ed4db4d3",
+  "title": "Iowa Environmental Mesonet (IEM), Iowa State University: ASOS/AWOS archive, NWS text products, Local Storm Reports",
+  "url": "https://mesonet.agron.iastate.edu/",
+  "licence_verdict": "open",
+  "licence_label": null,
+  "licence_evidence_url": "https://mesonet.agron.iastate.edu/disclaimer.php",
+  "use": "included",
+  "what": "hourly airport observations near Washington and Phoenix",
+  "why": "public domain; records copied",
+  "cases": [
+   "phoenix_1997",
+   "washington_1952"
+  ],
+  "records_included": {
+   "phoenix_1997": 71,
+   "washington_1952": 314
+  }
+ },
+ {
+  "source_row_id": "19d108a4236f999d",
+  "title": "NOAA-CIRES-DOE 20th Century Reanalysis v3",
+  "url": "https://psl.noaa.gov/data/20thC_Rean/",
+  "licence_verdict": "unknown",
+  "licence_label": null,
+  "licence_evidence_url": "https://psl.noaa.gov/disclaimer/",
+  "use": "linked_only",
+  "what": "20th Century Reanalysis, version 3",
+  "why": "not held (the server refused); ERA5 used instead",
+  "cases": [
+   "washington_1952",
+   "rendlesham_1980",
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "1de36ea796f8b4f5",
+  "title": "NASA OMNIWeb solar wind and geomagnetic data",
+  "url": "https://omniweb.gsfc.nasa.gov/",
+  "licence_verdict": "unknown",
+  "licence_label": null,
+  "licence_evidence_url": "https://www.law.cornell.edu/uscode/text/17/105",
+  "use": "linked_only",
+  "what": "hourly solar wind speed, F10.7 and Kp",
+  "why": "terms unknown: a compilation that carries indices and solar wind data made outside NASA; records not copied; link only",
+  "cases": [
+   "washington_1952",
+   "rendlesham_1980",
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "1f54eb254f8d95ef",
+  "title": "GHCN-Daily",
+  "url": "https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily",
+  "licence_verdict": "unknown",
+  "licence_label": null,
+  "licence_evidence_url": "https://www.law.cornell.edu/uscode/text/17/105",
+  "use": "derived_only",
+  "what": "daily station summaries",
+  "why": "terms unknown: a US federal compilation that includes observations supplied by foreign, volunteer and other non-federal observers; records not copied. Daily extremes per period only for first-order stations run by US federal agencies; cooperative and volunteer stations: link only",
+  "cases": [
+   "phoenix_1997",
+   "washington_1952"
+  ],
+  "records_included": {},
+  "derived_in": [
+   "phoenix_1997",
+   "washington_1952"
+  ]
+ },
+ {
+  "source_row_id": "30415dd03a7517df",
+  "title": "WDC for Geomagnetism, Kyoto: geomagnetic indices and observatory data",
+  "url": "https://wdc.kugi.kyoto-u.ac.jp/",
+  "licence_verdict": "open",
+  "licence_label": null,
+  "licence_evidence_url": "https://wdc.kugi.kyoto-u.ac.jp/wdc/Sec3.html",
+  "use": "linked_only",
+  "what": "Dst index",
+  "why": "scientific use only, no commercial use of the indices; link only",
+  "cases": [
+   "washington_1952",
+   "rendlesham_1980",
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "39f2dc487bc33956",
+  "title": "OurAirports open airport data",
+  "url": "https://ourairports.com/data/",
+  "licence_verdict": "open",
+  "licence_label": null,
+  "licence_evidence_url": "https://ourairports.com/data/",
+  "use": "included",
+  "what": "airfields near the reference points",
+  "why": "public domain; records copied",
+  "cases": [
+   "phoenix_1997",
+   "rendlesham_1980",
+   "washington_1952"
+  ],
+  "records_included": {
+   "phoenix_1997": 20,
+   "rendlesham_1980": 137,
+   "washington_1952": 27
+  }
+ },
+ {
+  "source_row_id": "495ceeb7376c5204",
+  "title": "National Investigations Committee on Aerial Phenomena (NICAP)",
+  "url": "https://nicap.org/",
+  "licence_verdict": "unknown",
+  "licence_label": null,
+  "licence_evidence_url": null,
+  "use": "linked_only",
+  "what": "NICAP case pages for all three studies",
+  "why": "terms unknown; link only; the dates and hours of the periods come from them",
+  "cases": [
+   "washington_1952",
+   "rendlesham_1980",
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "4a270186632a2409",
+  "title": "Scientific Study of Unidentified Flying Objects (Condon Report), NCAS Internet edition",
+  "url": "https://files.ncas.org/condon/",
+  "licence_verdict": "open",
+  "licence_label": null,
+  "licence_evidence_url": "https://files.ncas.org/condon/text/ucnotice.htm",
+  "use": "linked_only",
+  "what": "the 1968 University of Colorado study, chapters on the Washington nights",
+  "why": "copies allowed only whole, unmodified and non-commercial; link only",
+  "cases": [
+   "washington_1952"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "4b102a214916cdb6",
+  "title": "Integrated Global Radiosonde Archive (IGRA)",
+  "url": "https://www.ncei.noaa.gov/products/weather-balloon/integrated-global-radiosonde-archive",
+  "licence_verdict": "unknown",
+  "licence_label": null,
+  "licence_evidence_url": "https://www.law.cornell.edu/uscode/text/17/105",
+  "use": "derived_only",
+  "what": "radiosonde soundings",
+  "why": "terms unknown: a US federal compilation that includes soundings supplied by foreign and other non-federal services; records not copied. The inversions found in each sounding only for sites run by US federal agencies (Washington National, Tucson); every other site (the UK site for Rendlesham, Flagstaff): link only",
+  "cases": [
+   "phoenix_1997",
+   "rendlesham_1980",
+   "washington_1952"
+  ],
+  "records_included": {},
+  "derived_in": [
+   "phoenix_1997",
+   "washington_1952"
+  ]
+ },
+ {
+  "source_row_id": "4f37e1e87a504c45",
+  "title": "World Data Centre for Geomagnetism, Edinburgh (BGS), worldwide observatory data",
+  "url": "https://wdc.bgs.ac.uk/data.html",
+  "licence_verdict": "open",
+  "licence_label": null,
+  "licence_evidence_url": "https://wdc.bgs.ac.uk/usage",
+  "use": "linked_only",
+  "what": "magnetic observatory hourly values",
+  "why": "scientific use, commercial use only by agreement; link only",
+  "cases": [
+   "washington_1952",
+   "rendlesham_1980",
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "55a886dba23ec362",
+  "title": "VizieR catalogue service (CDS Strasbourg)",
+  "url": "https://vizier.cds.unistra.fr/",
+  "licence_verdict": "open",
+  "licence_label": null,
+  "licence_evidence_url": "https://cds.unistra.fr/legals/",
+  "use": "linked_only",
+  "what": "a full bright-star catalogue",
+  "why": "not held; the sky has 16 bright stars",
+  "cases": [
+   "washington_1952",
+   "rendlesham_1980",
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "65528447c906441d",
+  "title": "Deseret News archive",
+  "url": "https://www.deseret.com/",
+  "licence_verdict": "unknown",
+  "licence_label": null,
+  "licence_evidence_url": null,
+  "use": "linked_only",
+  "what": "a 1997 newspaper archive",
+  "why": "terms unknown, not held; link only",
+  "cases": [
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "732dade6f2d578d7",
+  "title": "Chronicling America (Historic American Newspapers, Library of Congress)",
+  "url": "https://www.loc.gov/collections/chronicling-america/",
+  "licence_verdict": "open",
+  "licence_label": null,
+  "licence_evidence_url": "https://www.loc.gov/legal/",
+  "use": "derived_only",
+  "what": "1952 newspaper pages",
+  "why": "rights in each item are left to the user; date, publication and a link to the page only",
+  "cases": [
+   "washington_1952"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "74960a5581220b28",
+  "title": "SIMBAD Astronomical Database (CDS Strasbourg)",
+  "url": "https://simbad.cds.unistra.fr/simbad/",
+  "licence_verdict": "open",
+  "licence_label": "ODbL",
+  "licence_evidence_url": "https://simbad.cds.unistra.fr/simbad/guide/",
+  "use": "linked_only",
+  "what": "star positions",
+  "why": "not held",
+  "cases": [
+   "washington_1952",
+   "rendlesham_1980",
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "74ae140bc0a3a8b1",
+  "title": "GCAT, General Catalog of Artificial Space Objects (J. McDowell)",
+  "url": "https://planet4589.org/space/gcat/",
+  "licence_verdict": "open",
+  "licence_label": "CC BY 4.0",
+  "licence_evidence_url": "https://planet4589.org/space/gcat/",
+  "use": "included",
+  "what": "launches dated to the day within the study spans",
+  "why": "CC BY 4.0; records copied with credit",
+  "cases": [
+   "phoenix_1997",
+   "rendlesham_1980",
+   "washington_1952"
+  ],
+  "records_included": {
+   "phoenix_1997": 3,
+   "rendlesham_1980": 41,
+   "washington_1952": 34
+  }
+ },
+ {
+  "source_row_id": "908e824d64ba1c70",
+  "title": "ROSA P, Repository and Open Science Access Portal (US DOT National Transportation Library)",
+  "url": "https://rosap.ntl.bts.gov/",
+  "licence_verdict": "open",
+  "licence_label": "US public domain (17 U.S.C. 105)",
+  "licence_evidence_url": "https://www.law.cornell.edu/uscode/text/17/105",
+  "use": "included",
+  "what": "the 1953 radar report on the Washington targets: the entries of its Table I and its assessments, as times, places and numbers",
+  "why": "US public domain; records copied, no text",
+  "cases": [
+   "washington_1952"
+  ],
+  "records_included": {
+   "washington_1952": 26
+  }
+ },
+ {
+  "source_row_id": "980d39efc7ce6f3c",
+  "title": "Project BLUE BOOK - Unidentified Flying Objects (US National Archives)",
+  "url": "https://www.archives.gov/research/military/air-force/ufos",
+  "licence_verdict": "open",
+  "licence_label": "US public domain (17 U.S.C. 105)",
+  "licence_evidence_url": "https://www.law.cornell.edu/uscode/text/17/105",
+  "use": "linked_only",
+  "what": "Project Blue Book case files, 1952",
+  "why": "not held; link only",
+  "cases": [
+   "washington_1952"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "9ac231335d2b6dd6",
+  "title": "GFZ Kp and ap geomagnetic indices since 1932",
+  "url": "https://kp.gfz.de/en/data",
+  "licence_verdict": "open",
+  "licence_label": "CC BY 4.0",
+  "licence_evidence_url": "https://kp.gfz.de/en/",
+  "use": "included",
+  "what": "Kp, ap, sunspot number and F10.7",
+  "why": "CC BY 4.0; records copied with credit",
+  "cases": [
+   "phoenix_1997",
+   "rendlesham_1980",
+   "washington_1952"
+  ],
+  "records_included": {
+   "phoenix_1997": 144,
+   "rendlesham_1980": 162,
+   "washington_1952": 288
+  }
+ },
+ {
+  "source_row_id": "a37e83ccef7a4c02",
+  "title": "JPL planetary and lunar ephemerides, NAIF generic SPK kernels (DE440, DE440s)",
+  "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/",
+  "licence_verdict": "open",
+  "licence_label": null,
+  "licence_evidence_url": "https://naif.jpl.nasa.gov/naif/rules.html",
+  "use": "derived_only",
+  "what": "planetary and lunar ephemerides",
+  "why": "the files may be used by anyone but redistributed only unmodified; the files are not copied; the positions computed from them are given",
+  "cases": [
+   "phoenix_1997",
+   "rendlesham_1980",
+   "washington_1952"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "aa0a4ab8b384ede2",
+  "title": "American Stories (Dell Research Harvard): article texts from Chronicling America newspaper scans",
+  "url": "https://huggingface.co/datasets/dell-research-harvard/AmericanStories",
+  "licence_verdict": "open",
+  "licence_label": "CC BY 4.0",
+  "licence_evidence_url": "https://huggingface.co/datasets/dell-research-harvard/AmericanStories",
+  "use": "derived_only",
+  "what": "1952 newspaper articles and headlines",
+  "why": "CC BY 4.0, but no third-party text is reproduced; date, publication and page only",
+  "cases": [
+   "washington_1952"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "b6792829a159327d",
+  "title": "Integrated Surface Database (ISD)",
+  "url": "https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database",
+  "licence_verdict": "unknown",
+  "licence_label": null,
+  "licence_evidence_url": "https://www.law.cornell.edu/uscode/text/17/105",
+  "use": "derived_only",
+  "what": "station observations",
+  "why": "terms unknown: a US federal compilation that includes observations supplied by foreign and other non-federal services; records not copied. Nearest-station ranges per period are derived only for stations run by US federal agencies (the National Weather Service, the FAA and the US military); every other station (all Rendlesham stations included): link only",
+  "cases": [
+   "phoenix_1997",
+   "rendlesham_1980",
+   "washington_1952"
+  ],
+  "records_included": {},
+  "derived_in": [
+   "phoenix_1997"
+  ]
+ },
+ {
+  "source_row_id": "b76e9c76d41d316d",
+  "title": "USGS ANSS Comprehensive Earthquake Catalog (ComCat), FDSN event service",
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+  "licence_verdict": "open",
+  "licence_label": "US public domain (17 U.S.C. 105)",
+  "licence_evidence_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+  "use": "included",
+  "what": "earthquakes and other seismic catalogue entries",
+  "why": "US public domain; records copied",
+  "cases": [
+   "phoenix_1997",
+   "rendlesham_1980",
+   "washington_1952"
+  ],
+  "records_included": {
+   "phoenix_1997": 132,
+   "rendlesham_1980": 374,
+   "washington_1952": 134
+  }
+ },
+ {
+  "source_row_id": "bd2fe22b2938a7dc",
+  "title": "JPL Small-Body Database API (SBDB), Solar System Dynamics",
+  "url": "https://ssd-api.jpl.nasa.gov/doc/sbdb.html",
+  "licence_verdict": "unknown",
+  "licence_label": null,
+  "licence_evidence_url": null,
+  "use": "linked_only",
+  "what": "Hale-Bopp orbit",
+  "why": "terms unknown, not held; no comet position computed",
+  "cases": [
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "bf1ca74198bca931",
+  "title": "JPL Horizons ephemeris system",
+  "url": "https://ssd.jpl.nasa.gov/horizons/",
+  "licence_verdict": "unknown",
+  "licence_label": null,
+  "licence_evidence_url": null,
+  "use": "linked_only",
+  "what": "Hale-Bopp ephemeris",
+  "why": "terms unknown, not held",
+  "cases": [
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "c0efa2b17cdebf89",
+  "title": "Royal Observatory, Greenwich - USAF/NOAA Sunspot Data (NASA Marshall Solar Physics)",
+  "url": "https://solarscience.msfc.nasa.gov/greenwch.shtml",
+  "licence_verdict": "unknown",
+  "licence_label": null,
+  "licence_evidence_url": "https://www.law.cornell.edu/uscode/text/17/105",
+  "use": "linked_only",
+  "what": "daily sunspot group counts",
+  "why": "terms unknown: the observations before 1977 were compiled by the Royal Greenwich Observatory; records not copied; link only",
+  "cases": [
+   "washington_1952",
+   "rendlesham_1980",
+   "phoenix_1997"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "d7089e0d3f3a0614",
+  "title": "Newswire (Dell Research Harvard): de-duplicated US newswire articles 1878 to 1977",
+  "url": "https://huggingface.co/datasets/dell-research-harvard/newswire",
+  "licence_verdict": "open",
+  "licence_label": "CC BY 4.0",
+  "licence_evidence_url": "https://huggingface.co/datasets/dell-research-harvard/newswire",
+  "use": "derived_only",
+  "what": "1952 wire stories",
+  "why": "CC BY 4.0, but no third-party text is reproduced; date, dateline, number of papers printing and number of days printed only",
+  "cases": [
+   "washington_1952"
+  ],
+  "records_included": {}
+ },
+ {
+  "source_row_id": "deadcb07c566904b",
+  "title": "NOAA SWPC Solar and Geophysical Event Reports",
+  "url": "https://www.spaceweather.gov/products/solar-and-geophysical-event-reports",
+  "licence_verdict": "open",
+  "licence_label": "US public domain (17 U.S.C. 105)",
+  "licence_evidence_url": "https://www.law.cornell.edu/uscode/text/17/105",
+  "use": "included",
+  "what": "daily lists of solar flares and other solar activity",
+  "why": "US public domain; records copied",
+  "cases": [
+   "phoenix_1997"
+  ],
+  "records_included": {
+   "phoenix_1997": 1
+  }
+ },
+ {
+  "source_row_id": "f77867129efc1db7",
+  "title": "NSF NCAR Geoscience Data Exchange (GDEX, formerly the Research Data Archive)",
+  "url": "https://gdex.ucar.edu/",
+  "licence_verdict": "open",
+  "licence_label": null,
+  "licence_evidence_url": "https://www.ucar.edu/terms-of-use/data",
+  "use": "included",
+  "what": "ERA5 hourly reanalysis at the reference points, with the inversions read from it",
+  "why": "CC BY 4.0; records copied with credit",
+  "cases": [
+   "phoenix_1997",
+   "rendlesham_1980",
+   "washington_1952"
+  ],
+  "records_included": {
+   "phoenix_1997": 185,
+   "rendlesham_1980": 434,
+   "washington_1952": 634
+  }
+ },
+ {
+  "source_row_id": "fd010ee6a4b4f2bd",
+  "title": "CelesTrak SATCAT satellite catalogue",
+  "url": "https://celestrak.org/satcat/",
+  "licence_verdict": "open",
+  "licence_label": null,
+  "licence_evidence_url": "https://celestrak.org/usage-policy.php",
+  "use": "derived_only",
+  "what": "satellite catalogue",
+  "why": "data freely available, but not marked for copying; records not copied; counts of objects in orbit and of decays per day only",
+  "cases": [
+   "phoenix_1997",
+   "rendlesham_1980",
+   "washington_1952"
+  ],
+  "records_included": {}
+ }
+]

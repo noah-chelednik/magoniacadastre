@@ -1,0 +1,173 @@
+{
+ "what": "temperature inversions found in each radiosonde sounding (strength in kelvin, base above the ground and depth in metres); the soundings themselves are not copied",
+ "source_row_ids": [
+  "4b102a214916cdb6"
+ ],
+ "soundings": [
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-11T11:05:00Z",
+   "inversions_below_400_hpa": [
+    {
+     "strength_k": 6.3,
+     "base_above_ground_m": 0,
+     "depth_m": 318
+    },
+    {
+     "strength_k": 1.2,
+     "base_above_ground_m": 4027,
+     "depth_m": 58
+    }
+   ]
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-11T23:15:00Z",
+   "inversions_below_400_hpa": []
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-12T11:09:00Z",
+   "inversions_below_400_hpa": [
+    {
+     "strength_k": 7.8,
+     "base_above_ground_m": 0,
+     "depth_m": 205
+    },
+    {
+     "strength_k": 1.6,
+     "base_above_ground_m": 3859,
+     "depth_m": 114
+    }
+   ]
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-12T23:09:00Z",
+   "inversions_below_400_hpa": []
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-13T11:00:00Z",
+   "inversions_below_400_hpa": [
+    {
+     "strength_k": 8.2,
+     "base_above_ground_m": 0,
+     "depth_m": 318
+    }
+   ]
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-13T23:09:00Z",
+   "inversions_below_400_hpa": [
+    {
+     "strength_k": 0.5,
+     "base_above_ground_m": 2630,
+     "depth_m": 101
+    }
+   ]
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-14T11:02:00Z",
+   "inversions_below_400_hpa": [
+    {
+     "strength_k": 7.2,
+     "base_above_ground_m": 0,
+     "depth_m": 198
+    },
+    {
+     "strength_k": 1.0,
+     "base_above_ground_m": 257,
+     "depth_m": 37
+    }
+   ]
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-14T23:13:00Z",
+   "inversions_below_400_hpa": [
+    {
+     "strength_k": 0.9,
+     "base_above_ground_m": 3435,
+     "depth_m": 185
+    }
+   ]
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-15T11:05:00Z",
+   "inversions_below_400_hpa": [
+    {
+     "strength_k": 7.2,
+     "base_above_ground_m": 0,
+     "depth_m": 183
+    }
+   ]
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-15T23:09:00Z",
+   "inversions_below_400_hpa": [
+    {
+     "strength_k": 1.9,
+     "base_above_ground_m": 3279,
+     "depth_m": 71
+    }
+   ]
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-16T11:03:00Z",
+   "inversions_below_400_hpa": [
+    {
+     "strength_k": 5.9,
+     "base_above_ground_m": 0,
+     "depth_m": 124
+    }
+   ]
+  },
+  {
+   "station": "TUCSON, AZ",
+   "station_id": "USM00072274",
+   "lat": 32.2278,
+   "lon": -110.9558,
+   "time": "1997-03-16T23:10:00Z",
+   "inversions_below_400_hpa": []
+  }
+ ]
+}

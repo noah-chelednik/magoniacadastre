@@ -1,0 +1,977 @@
+{
+ "case": "washington_1952",
+ "title": "Washington, D.C., July and August 1952",
+ "point": {
+  "lat": 38.8951,
+  "lon": -77.0364,
+  "name": "Washington, D.C.",
+  "country": "US"
+ },
+ "time_zone": "America/New_York (the 1952 radar logs give Eastern Standard Time, UTC-5; the NICAP case pages give Eastern Daylight Time, UTC-4)",
+ "span": {
+  "start": "1952-07-14T00:00:00Z",
+  "end": "1952-08-21T00:00:00Z"
+ },
+ "periods": [
+  {
+   "label": "night of 19/20 July",
+   "start": "1952-07-20T03:40:00Z",
+   "end": "1952-07-20T10:40:00Z"
+  },
+  {
+   "label": "night of 22/23 July",
+   "start": "1952-07-23T05:00:00Z",
+   "end": "1952-07-23T13:00:00Z"
+  },
+  {
+   "label": "night of 26/27 July",
+   "start": "1952-07-27T00:00:00Z",
+   "end": "1952-07-27T05:00:00Z"
+  },
+  {
+   "label": "night of 27/28 July",
+   "start": "1952-07-28T00:00:00Z",
+   "end": "1952-07-28T06:00:00Z"
+  },
+  {
+   "label": "night of 28/29 July",
+   "start": "1952-07-29T06:30:00Z",
+   "end": "1952-07-29T10:00:00Z"
+  },
+  {
+   "label": "afternoon of 29 July",
+   "start": "1952-07-29T17:30:00Z",
+   "end": "1952-07-29T20:00:00Z"
+  },
+  {
+   "label": "night of 5/6 August",
+   "start": "1952-08-05T21:00:00Z",
+   "end": "1952-08-06T13:00:00Z"
+  },
+  {
+   "label": "afternoon of 8 August",
+   "start": "1952-08-08T19:00:00Z",
+   "end": "1952-08-08T19:30:00Z"
+  },
+  {
+   "label": "night of 9/10 August",
+   "start": "1952-08-10T03:10:00Z",
+   "end": "1952-08-10T03:40:00Z"
+  },
+  {
+   "label": "night of 13/14 August",
+   "start": "1952-08-13T23:30:00Z",
+   "end": "1952-08-14T05:30:00Z"
+  },
+  {
+   "label": "evening of 14 August",
+   "start": "1952-08-15T00:56:00Z",
+   "end": "1952-08-15T02:25:00Z"
+  },
+  {
+   "label": "night of 15/16 August",
+   "start": "1952-08-16T03:13:00Z",
+   "end": "1952-08-16T09:50:00Z"
+  }
+ ],
+ "records": {
+  "airfields": 27,
+  "earthquakes": 134,
+  "launches": 34,
+  "radar_reports": 26,
+  "reanalysis": 634,
+  "sky": 1,
+  "space_weather": 288,
+  "surface_weather": 314
+ },
+ "derived": {
+  "periods": [
+   {
+    "period": "night of 19/20 July",
+    "start": "1952-07-20T03:40:00Z",
+    "end": "1952-07-20T10:40:00Z",
+    "nearest_station": {
+     "name": "DCA",
+     "distance_km": 5.3,
+     "observations": 9,
+     "temperature_c": [
+      24.6,
+      26.8
+     ],
+     "dewpoint_c": [
+      22.4,
+      23.5
+     ],
+     "wind_speed_m_s": [
+      0.0,
+      3.1
+     ],
+     "visibility_m": [
+      14484,
+      16093
+     ],
+     "lowest_cloud_base_m": 4267,
+     "source_row_id": "16c3d142ed4db4d3"
+    },
+    "daily_station": {
+     "station": "USW00013743",
+     "station_id": "USW00013743",
+     "distance_km": 5.3,
+     "source_row_id": "1f54eb254f8d95ef",
+     "days": [
+      {
+       "local_date": "1952-07-19",
+       "temperature_max_c": 33.9,
+       "temperature_min_c": 25.6,
+       "precipitation_mm": 3.0
+      },
+      {
+       "local_date": "1952-07-20",
+       "temperature_max_c": 32.2,
+       "temperature_min_c": 24.4,
+       "precipitation_mm": 9.1
+      }
+     ]
+    },
+    "kp": [
+     2.333,
+     5.667
+    ],
+    "era5_nearest_cell": {
+     "name": "ERA5 cell nearest Washington National Airport (KDCA)",
+     "hours": 7,
+     "cloud_cover_total_pct": [
+      6.2,
+      56.3
+     ],
+     "cloud_cover_low_pct": [
+      0.0,
+      0.0
+     ],
+     "boundary_layer_height_m": [
+      302.0,
+      502.0
+     ],
+     "hours_with_inversion": 0,
+     "strongest_inversion_k": null
+    },
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-07-20T02:00:00Z",
+     "hours_from_period_middle": 5.2,
+     "inversions": [],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": {
+     "time": "1952-07-20T07:15:00Z",
+     "above_horizon": [
+      {
+       "body": "deneb",
+       "altitude_deg": 74.05,
+       "azimuth_deg": 299.48,
+       "magnitude": 1.25
+      },
+      {
+       "body": "vega",
+       "altitude_deg": 50.84,
+       "azimuth_deg": 286.47,
+       "magnitude": 0.03
+      },
+      {
+       "body": "altair",
+       "altitude_deg": 48.02,
+       "azimuth_deg": 232.87,
+       "magnitude": 0.76
+      },
+      {
+       "body": "jupiter",
+       "altitude_deg": 21.38,
+       "azimuth_deg": 86.52,
+       "magnitude": -2.26
+      },
+      {
+       "body": "fomalhaut",
+       "altitude_deg": 20.05,
+       "azimuth_deg": 167.1,
+       "magnitude": 1.16
+      },
+      {
+       "body": "capella",
+       "altitude_deg": 16.19,
+       "azimuth_deg": 43.36,
+       "magnitude": 0.08
+      },
+      {
+       "body": "aldebaran",
+       "altitude_deg": 3.82,
+       "azimuth_deg": 71.94,
+       "magnitude": 0.86
+      }
+     ],
+     "source_row_ids": [
+      "a37e83ccef7a4c02"
+     ]
+    },
+    "seismic_events_within_24_h": {
+     "count": 7,
+     "within_500_km": 0,
+     "nearest_km": 3564
+    },
+    "satellites": {
+     "instants": 26,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "source_row_ids": [
+      "fd010ee6a4b4f2bd"
+     ]
+    }
+   },
+   {
+    "period": "night of 22/23 July",
+    "start": "1952-07-23T05:00:00Z",
+    "end": "1952-07-23T13:00:00Z",
+    "nearest_station": {
+     "name": "DCA",
+     "distance_km": 5.3,
+     "observations": 10,
+     "temperature_c": [
+      26.8,
+      31.3
+     ],
+     "dewpoint_c": [
+      21.3,
+      25.2
+     ],
+     "wind_speed_m_s": [
+      0.0,
+      2.6
+     ],
+     "visibility_m": [
+      16093,
+      16093
+     ],
+     "lowest_cloud_base_m": 7620,
+     "source_row_id": "16c3d142ed4db4d3"
+    },
+    "daily_station": {
+     "station": "USW00013743",
+     "station_id": "USW00013743",
+     "distance_km": 5.3,
+     "source_row_id": "1f54eb254f8d95ef",
+     "days": [
+      {
+       "local_date": "1952-07-23",
+       "temperature_max_c": 36.7,
+       "temperature_min_c": 25.6,
+       "precipitation_mm": 0.0
+      }
+     ]
+    },
+    "kp": [
+     2.0,
+     2.667
+    ],
+    "era5_nearest_cell": {
+     "name": "ERA5 cell nearest Washington National Airport (KDCA)",
+     "hours": 8,
+     "cloud_cover_total_pct": [
+      0.0,
+      7.1
+     ],
+     "cloud_cover_low_pct": [
+      0.0,
+      3.9
+     ],
+     "boundary_layer_height_m": [
+      40.0,
+      102.0
+     ],
+     "hours_with_inversion": 0,
+     "strongest_inversion_k": null
+    },
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-07-23T14:00:00Z",
+     "hours_from_period_middle": 5.0,
+     "inversions": [],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": null,
+    "seismic_events_within_24_h": {
+     "count": 72,
+     "within_500_km": 0,
+     "nearest_km": 3082
+    },
+    "satellites": {
+     "instants": 0,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "before_the_first_satellite": true
+    }
+   },
+   {
+    "period": "night of 26/27 July",
+    "start": "1952-07-27T00:00:00Z",
+    "end": "1952-07-27T05:00:00Z",
+    "nearest_station": {
+     "name": "DCA",
+     "distance_km": 5.3,
+     "observations": 7,
+     "temperature_c": [
+      25.2,
+      30.7
+     ],
+     "dewpoint_c": [
+      20.2,
+      20.7
+     ],
+     "wind_speed_m_s": [
+      1.5,
+      4.1
+     ],
+     "visibility_m": [
+      16093,
+      16093
+     ],
+     "lowest_cloud_base_m": null,
+     "source_row_id": "16c3d142ed4db4d3"
+    },
+    "daily_station": {
+     "station": "USW00013743",
+     "station_id": "USW00013743",
+     "distance_km": 5.3,
+     "source_row_id": "1f54eb254f8d95ef",
+     "days": [
+      {
+       "local_date": "1952-07-26",
+       "temperature_max_c": 32.2,
+       "temperature_min_c": 20.0,
+       "precipitation_mm": 0.0
+      },
+      {
+       "local_date": "1952-07-27",
+       "temperature_max_c": 34.4,
+       "temperature_min_c": 23.9,
+       "precipitation_mm": 0.0
+      }
+     ]
+    },
+    "kp": [
+     0.333,
+     2.333
+    ],
+    "era5_nearest_cell": {
+     "name": "ERA5 cell nearest Washington National Airport (KDCA)",
+     "hours": 5,
+     "cloud_cover_total_pct": [
+      0.0,
+      0.0
+     ],
+     "cloud_cover_low_pct": [
+      0.0,
+      0.0
+     ],
+     "boundary_layer_height_m": [
+      304.0,
+      409.0
+     ],
+     "hours_with_inversion": 1,
+     "strongest_inversion_k": 0.5
+    },
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-07-27T02:00:00Z",
+     "hours_from_period_middle": 0.5,
+     "inversions": [
+      {
+       "strength_k": 0.5,
+       "base_above_ground_m": 0,
+       "depth_m": 96
+      }
+     ],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": {
+     "time": "1952-07-27T02:30:00Z",
+     "above_horizon": [
+      {
+       "body": "vega",
+       "altitude_deg": 79.4,
+       "azimuth_deg": 86.3,
+       "magnitude": 0.03
+      },
+      {
+       "body": "deneb",
+       "altitude_deg": 56.6,
+       "azimuth_deg": 64.47,
+       "magnitude": 1.25
+      },
+      {
+       "body": "altair",
+       "altitude_deg": 48.49,
+       "azimuth_deg": 128.0,
+       "magnitude": 0.76
+      },
+      {
+       "body": "arcturus",
+       "altitude_deg": 41.48,
+       "azimuth_deg": 261.84,
+       "magnitude": -0.05
+      },
+      {
+       "body": "antares",
+       "altitude_deg": 22.54,
+       "azimuth_deg": 198.03,
+       "magnitude": 0.96
+      },
+      {
+       "body": "mars",
+       "altitude_deg": 19.59,
+       "azimuth_deg": 225.78,
+       "magnitude": -0.26
+      },
+      {
+       "body": "spica",
+       "altitude_deg": 12.11,
+       "azimuth_deg": 245.07,
+       "magnitude": 0.97
+      },
+      {
+       "body": "saturn",
+       "altitude_deg": 10.38,
+       "azimuth_deg": 259.2,
+       "magnitude": 0.87
+      }
+     ],
+     "source_row_ids": [
+      "a37e83ccef7a4c02"
+     ]
+    },
+    "seismic_events_within_24_h": {
+     "count": 32,
+     "within_500_km": 0,
+     "nearest_km": 3662
+    },
+    "satellites": {
+     "instants": 20,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "source_row_ids": [
+      "fd010ee6a4b4f2bd"
+     ]
+    }
+   },
+   {
+    "period": "night of 27/28 July",
+    "start": "1952-07-28T00:00:00Z",
+    "end": "1952-07-28T06:00:00Z",
+    "nearest_station": {
+     "name": "DCA",
+     "distance_km": 5.3,
+     "observations": 8,
+     "temperature_c": [
+      26.8,
+      33.5
+     ],
+     "dewpoint_c": [
+      20.2,
+      21.8
+     ],
+     "wind_speed_m_s": [
+      0.0,
+      3.6
+     ],
+     "visibility_m": [
+      11265,
+      16093
+     ],
+     "lowest_cloud_base_m": 1219,
+     "source_row_id": "16c3d142ed4db4d3"
+    },
+    "daily_station": {
+     "station": "USW00013743",
+     "station_id": "USW00013743",
+     "distance_km": 5.3,
+     "source_row_id": "1f54eb254f8d95ef",
+     "days": [
+      {
+       "local_date": "1952-07-27",
+       "temperature_max_c": 34.4,
+       "temperature_min_c": 23.9,
+       "precipitation_mm": 0.0
+      },
+      {
+       "local_date": "1952-07-28",
+       "temperature_max_c": 37.2,
+       "temperature_min_c": 23.9,
+       "precipitation_mm": 0.0
+      }
+     ]
+    },
+    "kp": [
+     1.667,
+     2.0
+    ],
+    "era5_nearest_cell": {
+     "name": "ERA5 cell nearest Washington National Airport (KDCA)",
+     "hours": 6,
+     "cloud_cover_total_pct": [
+      0.0,
+      16.9
+     ],
+     "cloud_cover_low_pct": [
+      0.0,
+      0.0
+     ],
+     "boundary_layer_height_m": [
+      78.0,
+      218.0
+     ],
+     "hours_with_inversion": 4,
+     "strongest_inversion_k": 3.0
+    },
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-07-28T02:00:00Z",
+     "hours_from_period_middle": 1.0,
+     "inversions": [
+      {
+       "strength_k": 2.0,
+       "base_above_ground_m": 0,
+       "depth_m": 44
+      }
+     ],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": null,
+    "seismic_events_within_24_h": {
+     "count": 23,
+     "within_500_km": 0,
+     "nearest_km": 3655
+    },
+    "satellites": {
+     "instants": 24,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "source_row_ids": [
+      "fd010ee6a4b4f2bd"
+     ]
+    }
+   },
+   {
+    "period": "night of 28/29 July",
+    "start": "1952-07-29T06:30:00Z",
+    "end": "1952-07-29T10:00:00Z",
+    "nearest_station": {
+     "name": "DCA",
+     "distance_km": 5.3,
+     "observations": 5,
+     "temperature_c": [
+      26.8,
+      29.1
+     ],
+     "dewpoint_c": [
+      19.1,
+      21.3
+     ],
+     "wind_speed_m_s": [
+      0.0,
+      1.5
+     ],
+     "visibility_m": [
+      16093,
+      16093
+     ],
+     "lowest_cloud_base_m": 1372,
+     "source_row_id": "16c3d142ed4db4d3"
+    },
+    "daily_station": {
+     "station": "USW00013743",
+     "station_id": "USW00013743",
+     "distance_km": 5.3,
+     "source_row_id": "1f54eb254f8d95ef",
+     "days": [
+      {
+       "local_date": "1952-07-29",
+       "temperature_max_c": 33.9,
+       "temperature_min_c": 26.1,
+       "precipitation_mm": 0.0
+      }
+     ]
+    },
+    "kp": [
+     0.333,
+     0.333
+    ],
+    "era5_nearest_cell": null,
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-07-29T14:00:00Z",
+     "hours_from_period_middle": 5.8,
+     "inversions": [],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": null,
+    "seismic_events_within_24_h": {
+     "count": 20,
+     "within_500_km": 0,
+     "nearest_km": 3655
+    },
+    "satellites": {
+     "instants": 0,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "before_the_first_satellite": true
+    }
+   },
+   {
+    "period": "afternoon of 29 July",
+    "start": "1952-07-29T17:30:00Z",
+    "end": "1952-07-29T20:00:00Z",
+    "nearest_station": {
+     "name": "DCA",
+     "distance_km": 5.3,
+     "observations": 4,
+     "temperature_c": [
+      30.2,
+      33.5
+     ],
+     "dewpoint_c": [
+      19.1,
+      21.3
+     ],
+     "wind_speed_m_s": [
+      2.1,
+      6.2
+     ],
+     "visibility_m": [
+      16093,
+      16093
+     ],
+     "lowest_cloud_base_m": 1219,
+     "source_row_id": "16c3d142ed4db4d3"
+    },
+    "daily_station": {
+     "station": "USW00013743",
+     "station_id": "USW00013743",
+     "distance_km": 5.3,
+     "source_row_id": "1f54eb254f8d95ef",
+     "days": [
+      {
+       "local_date": "1952-07-29",
+       "temperature_max_c": 33.9,
+       "temperature_min_c": 26.1,
+       "precipitation_mm": 0.0
+      }
+     ]
+    },
+    "kp": [
+     0.667,
+     1.333
+    ],
+    "era5_nearest_cell": null,
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-07-29T14:00:00Z",
+     "hours_from_period_middle": 4.8,
+     "inversions": [],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": null,
+    "seismic_events_within_24_h": {
+     "count": 17,
+     "within_500_km": 0,
+     "nearest_km": 3667
+    },
+    "satellites": {
+     "instants": 0,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "before_the_first_satellite": true
+    }
+   },
+   {
+    "period": "night of 5/6 August",
+    "start": "1952-08-05T21:00:00Z",
+    "end": "1952-08-06T13:00:00Z",
+    "nearest_station": null,
+    "daily_station": null,
+    "kp": null,
+    "era5_nearest_cell": null,
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-08-06T02:00:00Z",
+     "hours_from_period_middle": 3.0,
+     "inversions": [],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": null,
+    "seismic_events_within_24_h": {
+     "status": "not_held",
+     "held_from": "1952-07-16",
+     "held_to": "1952-07-31"
+    },
+    "satellites": {
+     "instants": 0,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "before_the_first_satellite": true
+    }
+   },
+   {
+    "period": "afternoon of 8 August",
+    "start": "1952-08-08T19:00:00Z",
+    "end": "1952-08-08T19:30:00Z",
+    "nearest_station": null,
+    "daily_station": null,
+    "kp": null,
+    "era5_nearest_cell": null,
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-08-08T14:00:00Z",
+     "hours_from_period_middle": 5.2,
+     "inversions": [],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": null,
+    "seismic_events_within_24_h": {
+     "status": "not_held",
+     "held_from": "1952-07-16",
+     "held_to": "1952-07-31"
+    },
+    "satellites": {
+     "instants": 0,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "before_the_first_satellite": true
+    }
+   },
+   {
+    "period": "night of 9/10 August",
+    "start": "1952-08-10T03:10:00Z",
+    "end": "1952-08-10T03:40:00Z",
+    "nearest_station": null,
+    "daily_station": null,
+    "kp": null,
+    "era5_nearest_cell": null,
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-08-10T02:00:00Z",
+     "hours_from_period_middle": 1.4,
+     "inversions": [],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": null,
+    "seismic_events_within_24_h": {
+     "status": "not_held",
+     "held_from": "1952-07-16",
+     "held_to": "1952-07-31"
+    },
+    "satellites": {
+     "instants": 0,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "before_the_first_satellite": true
+    }
+   },
+   {
+    "period": "night of 13/14 August",
+    "start": "1952-08-13T23:30:00Z",
+    "end": "1952-08-14T05:30:00Z",
+    "nearest_station": null,
+    "daily_station": null,
+    "kp": null,
+    "era5_nearest_cell": null,
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-08-14T02:00:00Z",
+     "hours_from_period_middle": 0.5,
+     "inversions": [
+      {
+       "strength_k": 3.8,
+       "base_above_ground_m": 0,
+       "depth_m": 79
+      }
+     ],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": null,
+    "seismic_events_within_24_h": {
+     "status": "not_held",
+     "held_from": "1952-07-16",
+     "held_to": "1952-07-31"
+    },
+    "satellites": {
+     "instants": 0,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "before_the_first_satellite": true
+    }
+   },
+   {
+    "period": "evening of 14 August",
+    "start": "1952-08-15T00:56:00Z",
+    "end": "1952-08-15T02:25:00Z",
+    "nearest_station": null,
+    "daily_station": null,
+    "kp": null,
+    "era5_nearest_cell": null,
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-08-15T02:00:00Z",
+     "hours_from_period_middle": 0.3,
+     "inversions": [
+      {
+       "strength_k": 2.2,
+       "base_above_ground_m": 0,
+       "depth_m": 70
+      }
+     ],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": null,
+    "seismic_events_within_24_h": {
+     "status": "not_held",
+     "held_from": "1952-07-16",
+     "held_to": "1952-07-31"
+    },
+    "satellites": {
+     "instants": 0,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "before_the_first_satellite": true
+    }
+   },
+   {
+    "period": "night of 15/16 August",
+    "start": "1952-08-16T03:13:00Z",
+    "end": "1952-08-16T09:50:00Z",
+    "nearest_station": null,
+    "daily_station": null,
+    "kp": null,
+    "era5_nearest_cell": null,
+    "nearest_sounding": {
+     "station": "WASHINGTON/NATIONAL",
+     "station_id": "USM00072405",
+     "distance_km": 5,
+     "time": "1952-08-16T02:00:00Z",
+     "hours_from_period_middle": 4.5,
+     "inversions": [],
+     "source_row_id": "4b102a214916cdb6"
+    },
+    "sky_at_middle": null,
+    "seismic_events_within_24_h": {
+     "status": "not_held",
+     "held_from": "1952-07-16",
+     "held_to": "1952-07-31"
+    },
+    "satellites": {
+     "instants": 0,
+     "catalogued_in_orbit": [
+      0,
+      0
+     ],
+     "could_be_sunlit_above_10_deg": [
+      0,
+      0
+     ],
+     "before_the_first_satellite": true
+    }
+   }
+  ],
+  "not_copied_link_only": {
+   "station_observations": 201,
+   "soundings": 0,
+   "daily_summaries": 0
+  },
+  "press_items": 382
+ }
+}
